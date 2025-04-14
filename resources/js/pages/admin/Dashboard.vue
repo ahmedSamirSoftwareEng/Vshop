@@ -34,4 +34,7 @@ import AdminLayout from './components/AdminLayout.vue';
 onMounted(() => {
     initFlowbite();
 });
+defineProps({
+  'admin': Object
+})
 </script>
